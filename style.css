@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Crimson+Text:ital,wght@0,400;0,600;1,600&display=swap');
+*{
+    font-family: Acme;
+}
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+
+
+.navbar {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.navbar-brand {
+    font-family: Acme;
+    margin-right: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: x-large;
+    font-weight: bold;
+    width: 100%;
+}
+
+.flex-item {
+    background: cyan;
+    border: 1pt solid black;
+    width: 15px;
+    transition: 0.1s all ease;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.bottom {
+    background-color: rgb(159, 159, 159);
+}
+
+#input {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+#navbarNav.button{
+    color :crimson
+}
